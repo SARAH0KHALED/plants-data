@@ -1,0 +1,1418 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025",
+    "total_plants": 24,
+    "cities": {
+      "1": { "ar": "المدينة ١", "en": "City 1" },
+      "2": { "ar": "المدينة ٢", "en": "City 2" },
+      "3": { "ar": "المدينة ٣", "en": "City 3" },
+      "4": { "ar": "المدينة ٤", "en": "City 4" },
+      "5": { "ar": "المدينة ٥", "en": "City 5" }
+    },
+    "note_on_refs": "Plants marked with '$ref' share identical growth requirements with the referenced plant_id. Resolve $ref in your app by copying the growth_requirements from the referenced plant."
+  },
+
+  "plants": [
+
+    {
+      "plant_id": 1,
+      "city_id": 1,
+      "plant_name": "Wild Olive",
+      "plant_name_ar": "الزيتون البري",
+      "scientific_name": "Olea europaea",
+      "planting_season": "Fall-Spring",
+      "water_needs": "Low",
+      "soil_type": "Well-drained",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "كل 14 إلى 21 يوماً",
+            "amount": "اسقِ بعمق ثم دع التربة تجف تماماً قبل الري التالي. الزيتون البري متحمّل جداً للجفاف.",
+            "tip": "الإفراط في الري أخطر من قلّته — الجذور تتعفن بسهولة في التربة المشبّعة."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "يحتاج أشعة الشمس المباشرة طوال اليوم لينمو بشكل صحي ويُنتج ثماراً."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "تربة جيدة التصريف",
+            "tip": "يتحمل التربة الكلسية والرملية والصخرية. أسوأ شيء له هو التربة الثقيلة التي تحتجز الماء."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الخريف والربيع",
+            "tip": "ازرعه في الخريف لتجنب حرارة الصيف، أو في الربيع المبكر. تجنب الزراعة في ذروة الصيف."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "يتحمل من -10 درجة حتى 40 درجة مئوية",
+            "tip": "من أكثر النباتات مقاومةً للحرارة والبرد."
+          },
+          "quick_steps": [
+            "اختر موقعاً مشمساً تماماً.",
+            "احفر حفرة ضعف حجم جذور الشتلة.",
+            "استخدم تربة جيدة التصريف أو أضف رملاً للتربة الثقيلة.",
+            "اسقِ جيداً بعد الزراعة، ثم قلّل الري تدريجياً.",
+            "لا يحتاج تسميداً كثيراً — مرة سنوياً في الربيع يكفي.",
+            "الشجرة بطيئة النمو لكن تعيش مئات السنين."
+          ],
+          "common_problems": [
+            { "symptom": "أوراق صفراء", "cause": "إفراط في الري", "solution": "قلّل الري وتأكد من صرف التربة" },
+            { "symptom": "عدم الإثمار", "cause": "ضوء غير كافٍ أو نبتة صغيرة السن", "solution": "انقله لمكان أشمس، يبدأ الإثمار بعد 3-5 سنوات" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Every 14-21 days",
+            "amount": "Water deeply then let soil dry out completely. Wild olive is highly drought-tolerant.",
+            "tip": "Overwatering is more dangerous than underwatering — roots rot easily in waterlogged soil."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours of direct sunlight",
+            "tip": "Needs full direct sun throughout the day to grow well and produce fruit."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Well-drained soil",
+            "tip": "Tolerates calcareous, sandy, and rocky soils. Avoid heavy, waterlogged soil."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Fall and Spring",
+            "tip": "Plant in fall to avoid summer heat, or in early spring. Avoid planting in peak summer."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "Tolerates -10°C to 40°C",
+            "tip": "One of the most heat and cold resistant plants."
+          },
+          "quick_steps": [
+            "Choose a fully sunny location.",
+            "Dig a hole twice the size of the root ball.",
+            "Use well-draining soil or add sand to heavy soil.",
+            "Water well after planting, then gradually reduce watering.",
+            "Minimal fertilizing — once a year in spring is enough.",
+            "Slow growing but can live hundreds of years."
+          ],
+          "common_problems": [
+            { "symptom": "Yellow leaves", "cause": "Overwatering", "solution": "Reduce watering and ensure good soil drainage" },
+            { "symptom": "No fruit", "cause": "Insufficient light or young plant", "solution": "Move to sunnier spot, fruiting begins after 3-5 years" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 2,
+      "city_id": 1,
+      "plant_name": "Sidr",
+      "plant_name_ar": "السدر",
+      "scientific_name": "Ziziphus spina-christi",
+      "planting_season": "Spring",
+      "water_needs": "Low",
+      "soil_type": "Various",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "كل 10 إلى 14 يوماً في البداية، ثم مرة في الشهر بعد الاستقرار",
+            "amount": "اسقِ بعمق مع ضمان صرف الماء. بعد سنة يصبح مكتفياً تقريباً.",
+            "tip": "من أكثر الأشجار تحملاً للجفاف والملوحة في المنطقة العربية."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "يزدهر في الحرارة الشديدة والشمس الكاملة."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "يتأقلم مع أنواع متعددة",
+            "tip": "يتحمل التربة الرملية والطينية والكلسية حتى المالحة منها."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الربيع",
+            "tip": "ازرعه في الربيع ليستقر قبل حرارة الصيف الشديدة."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "يتحمل حتى 45 درجة مئوية",
+            "tip": "مثالي لمناخ الخليج العربي والمناطق الحارة الجافة."
+          },
+          "quick_steps": [
+            "اختر موقعاً مشمساً مفتوحاً.",
+            "احفر حفرة عميقة — الجذور تحتاج مساحة للامتداد.",
+            "أي نوع تربة مناسب، تجنب الأراضي المستنقعة فقط.",
+            "اسقِ بانتظام أول 3 أشهر حتى يستقر، ثم قلّل.",
+            "لا يحتاج تقليماً كثيراً.",
+            "يبدأ الإثمار بعد سنتين إلى ثلاث."
+          ],
+          "common_problems": [
+            { "symptom": "تساقط الأوراق المفاجئ", "cause": "إجهاد مائي أو حرارة شديدة", "solution": "اسقِ بعمق مرة واحدة وانتظر — غالباً يتعافى خلال أسبوعين" },
+            { "symptom": "حشرات على الأوراق", "cause": "حشرة المن أو البق الدقيقي", "solution": "رشّ بمحلول ماء وصابون سائل مخفف" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Every 10-14 days initially, then monthly after establishment",
+            "amount": "Water deeply ensuring good drainage. After one year it becomes largely self-sufficient.",
+            "tip": "One of the most drought and salt-tolerant trees in the Arab region."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Thrives in intense heat and full sun."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Adaptable to various soil types",
+            "tip": "Tolerates sandy, clay, calcareous, and even saline soils."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Spring",
+            "tip": "Plant in spring to allow establishment before intense summer heat."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "Tolerates up to 45°C",
+            "tip": "Ideal for Gulf and hot arid climates."
+          },
+          "quick_steps": [
+            "Choose an open, fully sunny location.",
+            "Dig a deep hole — roots need space to spread.",
+            "Any soil type works, just avoid waterlogged areas.",
+            "Water regularly for first 3 months until established, then reduce.",
+            "Minimal pruning needed.",
+            "Fruiting begins after 2-3 years."
+          ],
+          "common_problems": [
+            { "symptom": "Sudden leaf drop", "cause": "Water stress or extreme heat", "solution": "Water deeply once and wait — usually recovers within 2 weeks" },
+            { "symptom": "Insects on leaves", "cause": "Aphids or mealybugs", "solution": "Spray with diluted water and liquid soap solution" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 3,
+      "city_id": 1,
+      "plant_name": "Artemisia",
+      "plant_name_ar": "الشيح",
+      "scientific_name": "Artemisia herba-alba",
+      "planting_season": "Fall-Spring",
+      "water_needs": "Very Low",
+      "soil_type": "Sandy",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "كل 3 إلى 4 أسابيع فقط",
+            "amount": "كمية قليلة جداً — يكفي ترطيب التربة السطحية. نبتة صحراوية بامتياز.",
+            "tip": "الإفراط في الري يقتلها بسرعة. في موسم الأمطار لا تحتاج ري إضافي إطلاقاً."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "في الظل تضعف وتتمدد بشكل غير طبيعي."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "رملية خفيفة جيدة التصريف",
+            "tip": "لا تزرعها في تربة طينية ثقيلة — تحتاج تربة تجفّ بسرعة بعد الري."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الخريف والربيع",
+            "tip": "الخريف هو الأفضل في المناطق الحارة."
+          },
+          "quick_steps": [
+            "اختر تربة رملية أو أضف رملاً خشناً للتربة.",
+            "ازرع البذور أو الشتلة على عمق 1-2 سم.",
+            "اسقِ قليلاً بعد الزراعة ثم دع التربة تجف تماماً.",
+            "لا تسمّد — تنمو أفضل في تربة فقيرة.",
+            "قصّ الأفرع القديمة في نهاية الشتاء لتحفيز النمو."
+          ],
+          "common_problems": [
+            { "symptom": "اصفرار وتعفن الساق", "cause": "ري زائد", "solution": "أوقف الري لأسبوعين وتأكد من صرف التربة" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Every 3-4 weeks only",
+            "amount": "Very little — just moisten the surface. A true desert plant.",
+            "tip": "Overwatering kills it quickly. No additional watering needed during rainy season."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Weakens and stretches abnormally in shade."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Light, well-draining sandy soil",
+            "tip": "Never plant in heavy clay — needs soil that dries quickly after watering."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Fall and Spring",
+            "tip": "Fall is best in hot regions."
+          },
+          "quick_steps": [
+            "Choose sandy soil or add coarse sand.",
+            "Plant seeds or seedling at only 1-2 cm depth.",
+            "Water lightly after planting, then let soil dry completely.",
+            "No fertilizing — grows best in poor soil.",
+            "Trim old branches at end of winter to stimulate growth."
+          ],
+          "common_problems": [
+            { "symptom": "Yellowing and stem rot", "cause": "Overwatering", "solution": "Stop watering for 2 weeks and ensure soil drainage" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 4,
+      "city_id": 1,
+      "plant_name": "Rimth",
+      "plant_name_ar": "الرمث",
+      "scientific_name": "Haloxylon salicornicum",
+      "planting_season": "Fall-Winter",
+      "water_needs": "Very Low",
+      "soil_type": "Saline",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "كل شهر أو أقل بعد الاستقرار",
+            "amount": "كمية قليلة جداً. يتحمل الملوحة الشديدة والجفاف الطويل.",
+            "tip": "نبتة ملحية — تنمو في التربة المالحة التي تقتل معظم النباتات الأخرى."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "نبتة صحراوية بيئية — لا تحتاج أي حماية من الشمس."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "تربة مالحة أو رملية",
+            "tip": "مثالية للأراضي المالحة الصعبة التي لا ينمو فيها شيء آخر."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الخريف والشتاء",
+            "tip": "ازرعها في الخريف لتستفيد من أمطار الشتاء."
+          },
+          "quick_steps": [
+            "مناسب جداً للأراضي المالحة والصحراوية.",
+            "ازرع البذور مباشرة في التربة بعد موسم الأمطار.",
+            "الري الأولي فقط حتى تنبت البذور، ثم اتركها تعتمد على نفسها.",
+            "لا تحتاج سماداً أو عناية خاصة.",
+            "نبتة بيئية ممتازة لمكافحة التصحر."
+          ],
+          "common_problems": [
+            { "symptom": "عدم الإنبات", "cause": "تربة غير مناسبة أو ري زائد", "solution": "تأكد من التربة المالحة وقلّل الري" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Monthly or less after establishment",
+            "amount": "Very little. Tolerates high salinity and prolonged drought.",
+            "tip": "A halophyte — grows in saline soils that kill most other plants."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "A desert ecological plant — needs no sun protection."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Saline or sandy soil",
+            "tip": "Ideal for difficult saline lands where nothing else grows."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Fall and Winter",
+            "tip": "Plant in fall to benefit from winter rains."
+          },
+          "quick_steps": [
+            "Highly suitable for saline and desert lands.",
+            "Sow seeds directly in soil after rainy season.",
+            "Water only initially until seeds germinate, then leave to self-sustain.",
+            "No fertilizer or special care needed.",
+            "Excellent ecological plant for combating desertification."
+          ],
+          "common_problems": [
+            { "symptom": "Failure to germinate", "cause": "Unsuitable soil or overwatering", "solution": "Ensure saline soil type and reduce watering" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 5,
+      "city_id": 2,
+      "plant_name": "Date Palm",
+      "plant_name_ar": "النخيل",
+      "scientific_name": "Phoenix dactylifera",
+      "planting_season": "Year-round",
+      "water_needs": "Moderate",
+      "soil_type": "Sandy",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "مرتان في الأسبوع صيفاً، مرة أسبوعياً شتاءً",
+            "amount": "اسقِ بعمق حتى تصل المياه للجذور العميقة. ري منتظم مع تصريف جيد.",
+            "tip": "النخلة تحب 'قدماها في الماء ورأسها في النار' — ري منتظم وشمس كاملة."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "10 ساعات أو أكثر",
+            "tip": "كلما كانت الشمس أشد كلما كانت التمور أحلى وأوفر."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "رملية جيدة التصريف",
+            "tip": "تفضّل التربة الرملية العميقة. تتحمل الملوحة المتوسطة."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "طوال العام، الربيع هو الأفضل",
+            "tip": "يمكن الزراعة في أي وقت مع توفير ري مناسب."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "تتحمل من 0 درجة حتى 50 درجة مئوية",
+            "tip": "مثالية لمناخ الخليج الحار الجاف."
+          },
+          "quick_steps": [
+            "استخدم فسيلة (شتلة جانبية) وليس بذرة.",
+            "احفر حفرة عميقة على الأقل 60 سم.",
+            "ضع طبقة من الرمل في القاع لضمان الصرف.",
+            "اسقِ بعمق مباشرة بعد الزراعة.",
+            "سمّد مرتين سنوياً: الربيع والخريف.",
+            "قلّم السعف الميت سنوياً.",
+            "تبدأ الإثمار بعد 4-8 سنوات."
+          ],
+          "common_problems": [
+            { "symptom": "اصفرار السعف", "cause": "نقص المغنيسيوم أو الحديد", "solution": "أضف سماداً متخصصاً لنخيل التمر" },
+            { "symptom": "مرض البيوض", "cause": "فطر يصيب الجذور", "solution": "علاج فوري بمبيدات فطرية متخصصة واستشارة خبير" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Twice weekly in summer, once weekly in winter",
+            "amount": "Water deeply to reach deep roots. Regular watering with good drainage.",
+            "tip": "Date palms love 'feet in water, head in fire' — regular watering with full sun."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "10+ hours",
+            "tip": "More intense sun produces sweeter and more abundant dates."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Sandy, well-draining",
+            "tip": "Prefers deep sandy soil. Tolerates moderate salinity."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Year-round, spring is best",
+            "tip": "Can be planted anytime with adequate watering."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "Tolerates 0°C to 50°C",
+            "tip": "Ideal for the hot, arid Gulf climate."
+          },
+          "quick_steps": [
+            "Use an offshoot (side shoot), not a seed.",
+            "Dig a hole at least 60 cm deep.",
+            "Place a sand layer at bottom for drainage.",
+            "Water deeply immediately after planting.",
+            "Fertilize twice a year: spring and fall.",
+            "Prune dead fronds annually.",
+            "Fruiting begins after 4-8 years."
+          ],
+          "common_problems": [
+            { "symptom": "Yellowing fronds", "cause": "Magnesium or iron deficiency", "solution": "Add specialized date palm fertilizer" },
+            { "symptom": "Bayoud disease (wilt)", "cause": "Root fungus", "solution": "Immediate treatment with specialized fungicide, consult an expert" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 6,
+      "city_id": 2,
+      "plant_name": "Sidr",
+      "plant_name_ar": "السدر",
+      "scientific_name": "Ziziphus spina-christi",
+      "planting_season": "Spring",
+      "water_needs": "Low to Moderate",
+      "soil_type": "Sandy",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": { "$ref": "plant_id_2" }
+    },
+
+    {
+      "plant_id": 7,
+      "city_id": 2,
+      "plant_name": "Mangrove",
+      "plant_name_ar": "القرم",
+      "scientific_name": "Avicennia marina",
+      "planting_season": "Spring-Summer",
+      "water_needs": "High",
+      "soil_type": "Coastal",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "نبتة ساحلية — تحتاج مياهاً مالحة مستمرة",
+            "amount": "تعيش في المياه المالحة الضحلة. الجذور يجب أن تكون دائماً في ماء مالح أو تربة مشبعة.",
+            "tip": "تُزرع في المناطق الساحلية فقط — لا تناسب الزراعة البرية إطلاقاً."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "تحتاج شمساً كاملة لتنمو وتحافظ على كثافتها."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "طمي ساحلي مع مياه مالحة",
+            "tip": "تنمو فقط في البيئات الساحلية المالحة."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الربيع والصيف",
+            "tip": "ازرعها في الربيع لتستفيد من الطقس الدافئ."
+          },
+          "quick_steps": [
+            "تُزرع فقط في المناطق الساحلية والمستنقعات المالحة.",
+            "استخدم بذرة ناضجة أو شتلة صغيرة.",
+            "اغرس مباشرة في الطمي الساحلي.",
+            "لا تحتاج ري إضافي — المياه الساحلية تكفيها.",
+            "دور بيئي مهم في حماية الشواطئ وتوفير موطن للأسماك."
+          ],
+          "common_problems": [
+            { "symptom": "جفاف الأوراق وتساقطها", "cause": "انقطاع المد والجزر أو تلوث المياه", "solution": "تأكد من وصول المياه المالحة للجذور بانتظام" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Coastal plant — requires continuous saltwater",
+            "amount": "Lives in shallow saltwater. Roots must always be in saltwater or saltwater-saturated soil.",
+            "tip": "Only suitable for coastal areas — not for inland gardens at all."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Needs full sun to grow and maintain density."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Coastal mud with saltwater",
+            "tip": "Only grows in saline coastal environments."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Spring and Summer",
+            "tip": "Plant in spring to benefit from warm weather."
+          },
+          "quick_steps": [
+            "Only plant in coastal areas and salt marshes.",
+            "Use a mature propagule or small seedling.",
+            "Plant directly in coastal mud.",
+            "No additional watering — coastal waters are sufficient.",
+            "Vital role in protecting coastlines and providing fish habitat."
+          ],
+          "common_problems": [
+            { "symptom": "Leaf drying and dropping", "cause": "Disrupted tidal flow or water pollution", "solution": "Ensure regular saltwater access to roots" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 8,
+      "city_id": 2,
+      "plant_name": "Ghaf",
+      "plant_name_ar": "الغاف",
+      "scientific_name": "Prosopis cineraria",
+      "planting_season": "Spring-Fall",
+      "water_needs": "Low",
+      "soil_type": "Sandy",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "كل 3 أسابيع صيفاً، كل شهر شتاءً",
+            "amount": "اسقِ بعمق مع ترك التربة تجف بينهما. بعد سنة يعتمد على المياه الجوفية.",
+            "tip": "من أكثر الأشجار مقاومةً للظروف القاسية في الخليج."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "تتحمل الحرارة الشديدة والرياح الجافة."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "رملية عميقة",
+            "tip": "جذورها تمتد لعمق كبير للوصول للمياه الجوفية — تحتاج تربة عميقة."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الربيع والخريف",
+            "tip": "تجنّب الزراعة في ذروة الصيف."
+          },
+          "quick_steps": [
+            "ازرع في مكان مفتوح بتربة رملية عميقة.",
+            "احفر حفرة عميقة جداً (70-80 سم).",
+            "اسقِ بانتظام أول سنة حتى تستقر الجذور.",
+            "بعد الاستقرار تصبح مكتفية تقريباً.",
+            "لا تقلّم بشكل مكثف.",
+            "شجرة عمرها يتجاوز 500 سنة في ظروف مثالية."
+          ],
+          "common_problems": [
+            { "symptom": "تساقط الأوراق في الصيف", "cause": "إجهاد حراري مؤقت", "solution": "اسقِ بعمق — تتعافى بمجرد انخفاض الحرارة" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Every 3 weeks in summer, monthly in winter",
+            "amount": "Water deeply allowing soil to dry between waterings. After one year relies on groundwater.",
+            "tip": "One of the most resilient trees in extreme Gulf conditions."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Tolerates intense heat and dry winds."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Deep sandy soil",
+            "tip": "Roots extend very deep to reach groundwater — needs deep, uncompacted soil."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Spring and Fall",
+            "tip": "Avoid planting in peak summer."
+          },
+          "quick_steps": [
+            "Plant in an open area with deep sandy soil.",
+            "Dig a very deep hole (70-80 cm).",
+            "Water regularly for the first year until roots reach deep levels.",
+            "After establishment, becomes nearly self-sufficient.",
+            "Avoid heavy pruning.",
+            "Can live over 500 years in ideal conditions."
+          ],
+          "common_problems": [
+            { "symptom": "Leaf drop in summer", "cause": "Temporary heat stress", "solution": "Water deeply — tree will recover once temperature drops" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 9,
+      "city_id": 2,
+      "plant_name": "Talh",
+      "plant_name_ar": "الطلح",
+      "scientific_name": "Acacia gerrardii",
+      "planting_season": "Fall-Winter",
+      "water_needs": "Very Low",
+      "soil_type": "Sandy",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "كل 3 إلى 4 أسابيع",
+            "amount": "اسقِ بعمق وقليلاً. يتحمل الجفاف الشديد بعد الاستقرار.",
+            "tip": "أكاسيا صحراوية — تعيش بأقل كمية ماء ممكنة."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "تتحمل الحرارة الشديدة والشمس المباشرة."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "رملية خفيفة",
+            "tip": "تتحمل التربة الفقيرة والجافة — في الواقع تفضّلها."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الخريف والشتاء",
+            "tip": "الزراعة الشتوية تعطيها وقتاً للاستقرار قبل حرارة الصيف."
+          },
+          "quick_steps": [
+            "ازرع في تربة رملية في موقع مشمس.",
+            "انقع البذور بالماء الساخن 24 ساعة قبل الزراعة.",
+            "اسقِ بانتظام الشهر الأول فقط.",
+            "بعد ذلك قلّل الري تدريجياً.",
+            "شجرة بيئية لتثبيت الرمال.",
+            "تعيش أكثر من 100 سنة."
+          ],
+          "common_problems": [
+            { "symptom": "بطء النمو", "cause": "طبيعي — بطيئة في البداية", "solution": "الصبر! بعد 2-3 سنوات ينمو بشكل ملحوظ" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Every 3-4 weeks",
+            "amount": "Water deeply but infrequently. Tolerates severe drought after establishment.",
+            "tip": "A desert acacia — lives on minimal water."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Tolerates intense heat and direct sun."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Light sandy soil",
+            "tip": "Tolerates poor, dry soil — actually prefers it."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Fall and Winter",
+            "tip": "Winter planting gives it time to establish before summer heat."
+          },
+          "quick_steps": [
+            "Plant in sandy soil in a sunny location.",
+            "Soak seeds in hot water for 24 hours before planting.",
+            "Water regularly only in the first month.",
+            "Then gradually reduce watering.",
+            "Excellent for sand stabilization.",
+            "Can live over 100 years."
+          ],
+          "common_problems": [
+            { "symptom": "Slow growth", "cause": "Normal — slow-growing initially", "solution": "Be patient! After 2-3 years growth becomes noticeable" }
+          ]
+        }
+      }
+    },
+
+    { "plant_id": 10, "city_id": 3, "plant_name": "Talh Tree", "plant_name_ar": "الطلح", "scientific_name": "Acacia gerrardii", "planting_season": "Fall-Winter", "water_needs": "Very Low", "soil_type": "Sandy", "sunlight_needs": "Full Sun", "growth_requirements": { "$ref": "plant_id_9" } },
+    { "plant_id": 11, "city_id": 3, "plant_name": "Sidr", "plant_name_ar": "السدر", "scientific_name": "Ziziphus spina-christi", "planting_season": "Spring", "water_needs": "Low to Moderate", "soil_type": "Sandy", "sunlight_needs": "Full Sun", "growth_requirements": { "$ref": "plant_id_2" } },
+    { "plant_id": 12, "city_id": 3, "plant_name": "Ghaf", "plant_name_ar": "الغاف", "scientific_name": "Prosopis cineraria", "planting_season": "Spring-Fall", "water_needs": "Low", "soil_type": "Sandy", "sunlight_needs": "Full Sun", "growth_requirements": { "$ref": "plant_id_8" } },
+    { "plant_id": 13, "city_id": 3, "plant_name": "Rimth", "plant_name_ar": "الرمث", "scientific_name": "Haloxylon salicornicum", "planting_season": "Fall-Winter", "water_needs": "Very Low", "soil_type": "Sandy", "sunlight_needs": "Full Sun", "growth_requirements": { "$ref": "plant_id_4" } },
+    { "plant_id": 14, "city_id": 3, "plant_name": "Artemisia", "plant_name_ar": "الشيح", "scientific_name": "Artemisia herba-alba", "planting_season": "Fall-Spring", "water_needs": "Very Low", "soil_type": "Sandy", "sunlight_needs": "Full Sun", "growth_requirements": { "$ref": "plant_id_3" } },
+
+    {
+      "plant_id": 15,
+      "city_id": 4,
+      "plant_name": "Mango",
+      "plant_name_ar": "المانجو",
+      "scientific_name": "Mangifera indica",
+      "planting_season": "Spring",
+      "water_needs": "Moderate",
+      "soil_type": "Fertile",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "مرتان في الأسبوع صيفاً، مرة أسبوعياً شتاءً",
+            "amount": "اسقِ بعمق ولكن اتركها تجف قليلاً بين الريّات.",
+            "tip": "قبل الإزهار بشهر إلى شهرين، قلّل الري لتشجيع تكوّن الأزهار."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "في الظل تنمو لكن لا تثمر."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "تربة خصبة عميقة جيدة التصريف",
+            "tip": "أضف كمبوست عضوي عند الزراعة وسنوياً."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الربيع",
+            "tip": "ازرع في الربيع بعد انتهاء الصقيع تماماً."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "18 إلى 40 درجة مئوية",
+            "tip": "إذا انخفضت الحرارة عن 10 درجات اغطِها."
+          },
+          "quick_steps": [
+            "اختر شتلة مطعومة من المشتل وليس بذرة.",
+            "احفر حفرة 60×60 سم مع إضافة كمبوست.",
+            "اسقِ بانتظام أول سنة.",
+            "سمّد مرتين سنوياً: بعد الحصاد وفي الشتاء.",
+            "تبدأ الإثمار بعد 3-5 سنوات."
+          ],
+          "common_problems": [
+            { "symptom": "اسوداد طرف الأوراق", "cause": "نقص الكالسيوم أو ري غير منتظم", "solution": "اجعل الري منتظماً وأضف سماداً يحتوي كالسيوم" },
+            { "symptom": "تساقط الثمار قبل النضج", "cause": "إجهاد مائي أو حشرات", "solution": "انتظم في الري وافحص النبتة للحشرات" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Twice weekly in summer, once weekly in winter",
+            "amount": "Water deeply but allow slight drying between waterings.",
+            "tip": "Reduce watering 1-2 months before flowering to encourage flower formation."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Grows but won't fruit in shade."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Deep, fertile, well-draining",
+            "tip": "Add organic compost at planting and annually."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Spring",
+            "tip": "Plant in spring after all frost risk has passed."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "18°C to 40°C",
+            "tip": "Cover if temperature drops below 10°C."
+          },
+          "quick_steps": [
+            "Choose a grafted seedling, not a seed.",
+            "Dig a 60×60 cm hole with added compost.",
+            "Water regularly for the first year.",
+            "Fertilize twice yearly: after harvest and in winter.",
+            "Fruiting begins after 3-5 years."
+          ],
+          "common_problems": [
+            { "symptom": "Blackening leaf tips", "cause": "Calcium deficiency or irregular watering", "solution": "Regularize watering and add calcium-containing fertilizer" },
+            { "symptom": "Premature fruit drop", "cause": "Water stress or pests", "solution": "Regularize watering and inspect for insects" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 16,
+      "city_id": 4,
+      "plant_name": "Banana",
+      "plant_name_ar": "الموز",
+      "scientific_name": "Musa acuminata",
+      "planting_season": "Year-round",
+      "water_needs": "High",
+      "soil_type": "Rich Soil",
+      "sunlight_needs": "Partial Shade",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "كل يومين إلى 3 أيام",
+            "amount": "الموز يحتاج ماءً كثيراً — اسقِ بعمق ولا تدع التربة تجف تماماً.",
+            "tip": "في الحرارة الشديدة يحتاج ريّاً يومياً. الأوراق المتدلية علامة على العطش."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس جزئية إلى كاملة",
+            "hours_per_day": "6 إلى 8 ساعات",
+            "tip": "يتحمل ظلاً جزئياً يحميه من حروق الشمس في الأجواء الحارة جداً."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "تربة غنية بالمواد العضوية",
+            "tip": "أضف كمبوست عضوي بكمية كبيرة — الموز من أكثر النباتات احتياجاً للتغذية."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "طوال العام، الربيع هو الأفضل",
+            "tip": "يمكن الزراعة في أي وقت."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "20 إلى 35 درجة مئوية مثالية",
+            "tip": "يتضرر عند 10 درجات وما دون. اغطِه في الليالي الباردة."
+          },
+          "quick_steps": [
+            "استخدم خلفة (نبتة جانبية) من موزة ناضجة.",
+            "احفر حفرة كبيرة مليئة بالكمبوست.",
+            "اسقِ يومياً أسبوعين بعد الزراعة.",
+            "سمّد شهرياً بسماد غني بالبوتاسيوم.",
+            "أزل الأوراق الصفراء باستمرار.",
+            "تبدأ الإثمار بعد 9-12 شهراً."
+          ],
+          "common_problems": [
+            { "symptom": "أوراق متشققة", "cause": "ريح شديدة أو جفاف", "solution": "ضعها في مكان محمي واسقِ بانتظام" },
+            { "symptom": "تعفن القاعدة", "cause": "ري زائد مع تصريف سيئ", "solution": "حسّن صرف التربة وقلّل الري" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Every 2-3 days",
+            "amount": "Needs lots of water — water deeply and don't let soil fully dry out.",
+            "tip": "In intense heat, daily watering may be needed. Drooping leaves signal thirst."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Partial to Full Sun",
+            "hours_per_day": "6-8 hours",
+            "tip": "Tolerates partial shade which protects from sunburn in very hot climates."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Rich organic soil",
+            "tip": "Add large amounts of organic compost — bananas are among the hungriest feeders."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Year-round, spring is best",
+            "tip": "Can be planted anytime."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "20°C to 35°C ideal",
+            "tip": "Damaged at 10°C and below. Cover on cold nights."
+          },
+          "quick_steps": [
+            "Use a sucker (side shoot) from a mature banana plant.",
+            "Dig a large hole filled with compost.",
+            "Water daily for 2 weeks after planting.",
+            "Fertilize monthly with potassium-rich fertilizer.",
+            "Continuously remove yellow and dry leaves.",
+            "Fruiting begins after 9-12 months."
+          ],
+          "common_problems": [
+            { "symptom": "Split leaves", "cause": "Strong wind or drought", "solution": "Place in a wind-sheltered spot and water regularly" },
+            { "symptom": "Base rot", "cause": "Overwatering with poor drainage", "solution": "Improve soil drainage and reduce watering" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 17,
+      "city_id": 4,
+      "plant_name": "Papaya",
+      "plant_name_ar": "البابايا",
+      "scientific_name": "Carica papaya",
+      "planting_season": "Year-round",
+      "water_needs": "Moderate",
+      "soil_type": "Fertile",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "مرتان في الأسبوع",
+            "amount": "اسقِ بانتظام ولكن تأكد من صرف الماء — البابايا تكره الماء الراكد بشدة.",
+            "tip": "الجذور حساسة جداً للتشبع المائي — وعاء بثقوب صرف أو تربة مرتفعة قليلاً ضرورية."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "تحتاج شمساً كاملة لتثمر بغزارة."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "تربة خصبة خفيفة جيدة التصريف",
+            "tip": "لا تزرعها في تربة ثقيلة. أضف رملاً وكمبوست."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "طوال العام",
+            "tip": "الربيع والصيف المبكر هو الأمثل."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "22 إلى 35 درجة مئوية",
+            "tip": "حساسة جداً للبرد — الصقيع يقتلها. اغطِها إذا انخفضت الحرارة عن 10 درجات."
+          },
+          "quick_steps": [
+            "ابدأ بالبذور: انقعها في الماء 24 ساعة ثم ازرعها، أو استخدم شتلة.",
+            "اختر مكاناً مرتفعاً قليلاً لضمان الصرف.",
+            "اسقِ منتظماً لكن لا تبالغ.",
+            "سمّد كل 3 أسابيع بسماد غني بالبوتاسيوم.",
+            "تبدأ الإثمار بعد 6-9 أشهر فقط!"
+          ],
+          "common_problems": [
+            { "symptom": "تعفن الساق عند القاعدة", "cause": "ري زائد أو تربة سيئة الصرف", "solution": "قلّل الري فوراً وحسّن الصرف" },
+            { "symptom": "اصفرار الأوراق", "cause": "نقص النيتروجين أو ري زائد", "solution": "أضف سماداً نيتروجينياً وتحقق من الري" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Twice per week",
+            "amount": "Water regularly but ensure drainage — papaya hates standing water.",
+            "tip": "Roots are very sensitive to waterlogging — drainage holes or raised beds are essential."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Needs full sun to fruit abundantly."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Fertile, light, well-draining",
+            "tip": "Never plant in heavy soil. Add sand and compost."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Year-round",
+            "tip": "Spring and early summer are optimal."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "22°C to 35°C",
+            "tip": "Very cold-sensitive — frost will kill it. Cover if below 10°C."
+          },
+          "quick_steps": [
+            "Start with seeds (soak 24 hrs) or use a nursery seedling.",
+            "Choose a slightly elevated spot for drainage.",
+            "Water regularly but don't overdo it.",
+            "Fertilize every 3 weeks with potassium and phosphorus fertilizer.",
+            "Fruiting begins after just 6-9 months!"
+          ],
+          "common_problems": [
+            { "symptom": "Stem rot at base", "cause": "Overwatering or poor drainage", "solution": "Reduce watering immediately and improve drainage" },
+            { "symptom": "Yellowing leaves", "cause": "Nitrogen deficiency or overwatering", "solution": "Add nitrogen fertilizer and check watering" }
+          ]
+        }
+      }
+    },
+
+    { "plant_id": 18, "city_id": 4, "plant_name": "Sidr", "plant_name_ar": "السدر", "scientific_name": "Ziziphus spina-christi", "planting_season": "Spring", "water_needs": "Moderate", "soil_type": "Various", "sunlight_needs": "Full Sun", "growth_requirements": { "$ref": "plant_id_2" } },
+
+    {
+      "plant_id": 19,
+      "city_id": 4,
+      "plant_name": "Coconut",
+      "plant_name_ar": "التارجيل",
+      "scientific_name": "Cocos nucifera",
+      "planting_season": "Year-round",
+      "water_needs": "High",
+      "soil_type": "Coastal Sandy",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "3 مرات في الأسبوع",
+            "amount": "تحتاج ماءً وفيراً ومنتظماً. في الحرارة الشديدة اسقِها يومياً.",
+            "tip": "نخلة ساحلية بطبيعتها — تحب الرطوبة العالية والري المنتظم."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "تحتاج شمساً مباشرة كاملة لتنمو وتثمر."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "رملية ساحلية جيدة التصريف",
+            "tip": "تتحمل الملوحة العالية والرياح الساحلية — مثالية للمناطق الشاطئية."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "طوال العام",
+            "tip": "تجنّب الزراعة في أشد أشهر الشتاء برودة."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "20 إلى 38 درجة مئوية",
+            "tip": "لا تتحمل البرد — مناخ استوائي أو شبه استوائي ضروري."
+          },
+          "quick_steps": [
+            "استخدم جوزة نارجيل ناضجة كاملة.",
+            "انقع الجوزة في الماء 48 ساعة.",
+            "ازرعها بزاوية 45 درجة حتى ثلثها في التربة.",
+            "ضع في مكان دافئ ومشمس.",
+            "اسقِ بانتظام وحافظ على رطوبة التربة.",
+            "تبدأ الإثمار بعد 5-7 سنوات."
+          ],
+          "common_problems": [
+            { "symptom": "اصفرار السعف", "cause": "نقص البوتاسيوم أو المغنيسيوم", "solution": "أضف سماداً متخصصاً لنخيل جوز الهند" },
+            { "symptom": "تساقط الجوز قبل النضج", "cause": "إجهاد مائي أو ريح شديدة", "solution": "انتظم في الري ووفّر حماية من الريح" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "3 times per week",
+            "amount": "Needs abundant, regular water. Daily in intense heat.",
+            "tip": "A coastal palm by nature — loves high humidity and regular watering."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Needs full direct sun to grow and fruit."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Coastal sandy, well-draining",
+            "tip": "Tolerates high salinity and coastal winds — ideal for beachside areas."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Year-round",
+            "tip": "Avoid planting in the coldest winter months."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "20°C to 38°C",
+            "tip": "Cannot tolerate cold — tropical or subtropical climate required."
+          },
+          "quick_steps": [
+            "Use a mature whole coconut.",
+            "Soak the coconut in water for 48 hours.",
+            "Plant at a 45-degree angle with one-third buried.",
+            "Place in a warm, sunny location.",
+            "Water regularly and maintain soil moisture.",
+            "Fruiting begins after 5-7 years."
+          ],
+          "common_problems": [
+            { "symptom": "Yellowing fronds", "cause": "Potassium or magnesium deficiency", "solution": "Add specialized coconut palm fertilizer" },
+            { "symptom": "Premature nut drop", "cause": "Water stress or strong wind", "solution": "Regularize watering and provide wind protection" }
+          ]
+        }
+      }
+    },
+
+    { "plant_id": 20, "city_id": 5, "plant_name": "Sidr Tree", "plant_name_ar": "السدر", "scientific_name": "Ziziphus spina-christi", "planting_season": "Spring", "water_needs": "Moderate", "soil_type": "Well-drained", "sunlight_needs": "Full Sun", "growth_requirements": { "$ref": "plant_id_2" } },
+
+    {
+      "plant_id": 21,
+      "city_id": 5,
+      "plant_name": "Rose",
+      "plant_name_ar": "الورد الطائفي",
+      "scientific_name": "Rosa damascena",
+      "planting_season": "Fall-Spring",
+      "water_needs": "Moderate",
+      "soil_type": "Rich Soil",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "مرتان في الأسبوع",
+            "amount": "اسقِ عند قاعدة النبتة مباشرة — تجنّب رشّ الأوراق والأزهار لمنع الأمراض الفطرية.",
+            "tip": "الصباح الباكر هو أفضل وقت للري."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "6 إلى 8 ساعات",
+            "tip": "تحتاج على الأقل 6 ساعات شمس مباشرة للإزهار بشكل جيد."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "تربة غنية بالمواد العضوية جيدة التصريف",
+            "tip": "أضف كمبوست وسماد طبيعي. الورد من أكثر النباتات احتياجاً للتغذية."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الخريف والربيع",
+            "tip": "الخريف هو الأفضل — تستقر خلال الشتاء وتزهر في الربيع."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "15 إلى 30 درجة مئوية مثالية",
+            "tip": "الطائف مثالية للورد بسبب مناخها المعتدل."
+          },
+          "quick_steps": [
+            "استخدم شتلة مطعومة من المشتل.",
+            "احفر حفرة 40×40 سم وأضف كمبوست عضوي.",
+            "اسقِ جيداً بعد الزراعة.",
+            "قلّم بعد كل موسم إزهار لتشجيع الأزهار الجديدة.",
+            "سمّد كل 3 أسابيع خلال موسم النمو.",
+            "راقب حشرة المن باستمرار."
+          ],
+          "common_problems": [
+            { "symptom": "بقع سوداء على الأوراق", "cause": "مرض فطري", "solution": "أزل الأوراق المصابة وارشّ بمبيد فطري، وتجنّب رشّ الأوراق عند الري" },
+            { "symptom": "حشرة المن على البراعم", "cause": "حشرات صغيرة خضراء أو سوداء", "solution": "رشّ بمحلول صابون سائل أو مبيد طبيعي" },
+            { "symptom": "قلة الأزهار", "cause": "نقص ضوء أو سماد", "solution": "انقلها لمكان أشمس وأضف سماداً غنياً بالفوسفور" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Twice per week",
+            "amount": "Water at the base directly — avoid wetting leaves and flowers to prevent fungal disease.",
+            "tip": "Early morning is the best time to water."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "6-8 hours",
+            "tip": "Needs at least 6 hours of direct sun for good flowering."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Rich organic, well-draining",
+            "tip": "Add compost and organic fertilizer. Roses are among the heaviest feeders."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Fall and Spring",
+            "tip": "Fall is best — establishes over winter and blooms in spring."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "15°C to 30°C ideal",
+            "tip": "Taif is ideal for roses due to its mild climate."
+          },
+          "quick_steps": [
+            "Use a grafted seedling from a nursery.",
+            "Dig a 40×40 cm hole and add organic compost.",
+            "Water well after planting.",
+            "Prune after each flowering season.",
+            "Fertilize every 3 weeks during growing season.",
+            "Continuously monitor for aphids."
+          ],
+          "common_problems": [
+            { "symptom": "Black spots on leaves", "cause": "Fungal disease", "solution": "Remove affected leaves and spray with fungicide. Avoid wetting leaves" },
+            { "symptom": "Aphids on buds", "cause": "Small green or black insects", "solution": "Spray with liquid soap solution or natural pesticide" },
+            { "symptom": "Few flowers", "cause": "Insufficient light or fertilizer", "solution": "Move to sunnier spot and add phosphorus-rich fertilizer" }
+          ]
+        }
+      }
+    },
+
+    {
+      "plant_id": 22,
+      "city_id": 5,
+      "plant_name": "Pomegranate",
+      "plant_name_ar": "الرمان",
+      "scientific_name": "Punica granatum",
+      "planting_season": "Winter-Spring",
+      "water_needs": "Moderate",
+      "soil_type": "Well-drained",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "مرة كل أسبوع إلى 10 أيام",
+            "amount": "اسقِ بعمق ودع التربة تجف جزئياً. ري منتظم وقت تكوّن الثمار لمنع تشققها.",
+            "tip": "عدم انتظام الري أثناء نضج الثمار يسبب تشقق الرمان — كن منتظماً في هذه الفترة."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "كلما زادت الشمس كلما كانت الثمار أحلى وأحمر."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "جيدة التصريف، تتحمل أنواعاً متعددة",
+            "tip": "يتحمل التربة الكلسية والرملية. لا يتحمل التشبع المائي."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الشتاء والربيع",
+            "tip": "ازرع في نهاية الشتاء أو مطلع الربيع."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "يتحمل من -12 درجة حتى 45 درجة",
+            "tip": "من أكثر الأشجار المثمرة مقاومةً للحرارة والبرد."
+          },
+          "quick_steps": [
+            "استخدم عقلة أو شتلة — أسرع من البذور.",
+            "احفر حفرة 50×50 سم مع إضافة كمبوست.",
+            "اسقِ بانتظام أول موسم كامل.",
+            "قلّم في الشتاء لإزالة الأفرع الميتة والمزدحمة.",
+            "سمّد مرتين سنوياً.",
+            "تبدأ الإثمار بعد سنتين إلى ثلاث."
+          ],
+          "common_problems": [
+            { "symptom": "تشقق الثمار", "cause": "ري غير منتظم أثناء النضج", "solution": "انتظم في الري تماماً خلال فترة تكوّن الثمار" },
+            { "symptom": "الثمار الصغيرة", "cause": "نقص التسميد أو ضعف التلقيح", "solution": "أضف سماداً وتأكد من وجود نحل أو افعل التلقيح يدوياً" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Every 7-10 days",
+            "amount": "Water deeply and let soil partially dry. Consistent watering during fruit development prevents splitting.",
+            "tip": "Irregular watering during ripening causes pomegranate splitting — be very consistent."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "More sun means sweeter and redder fruits."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Well-drained, tolerates various types",
+            "tip": "Tolerates calcareous and sandy soils. Cannot tolerate waterlogging."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Winter and Spring",
+            "tip": "Plant at end of winter or start of spring."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "Tolerates -12°C to 45°C",
+            "tip": "One of the most heat and cold resistant fruit trees."
+          },
+          "quick_steps": [
+            "Use a cutting or seedling — faster than seeds.",
+            "Dig a 50×50 cm hole with added compost.",
+            "Water regularly for the entire first season.",
+            "Prune in winter to remove dead and crowded branches.",
+            "Fertilize twice a year.",
+            "Fruiting begins after 2-3 years."
+          ],
+          "common_problems": [
+            { "symptom": "Fruit splitting", "cause": "Irregular watering during ripening", "solution": "Maintain completely consistent watering during fruit development" },
+            { "symptom": "Small fruits", "cause": "Fertilizer deficiency or poor pollination", "solution": "Add fertilizer and ensure bee presence or hand-pollinate" }
+          ]
+        }
+      }
+    },
+
+    { "plant_id": 23, "city_id": 5, "plant_name": "Wild Olive", "plant_name_ar": "الزيتون البري", "scientific_name": "Olea europaea", "planting_season": "Fall-Spring", "water_needs": "Low", "soil_type": "Well-drained", "sunlight_needs": "Full Sun", "growth_requirements": { "$ref": "plant_id_1" } },
+
+    {
+      "plant_id": 24,
+      "city_id": 5,
+      "plant_name": "Fig",
+      "plant_name_ar": "التين",
+      "scientific_name": "Ficus carica",
+      "planting_season": "Winter-Spring",
+      "water_needs": "Moderate",
+      "soil_type": "Well-drained",
+      "sunlight_needs": "Full Sun",
+      "growth_requirements": {
+        "ar": {
+          "watering": {
+            "title": "الري",
+            "frequency": "مرة أسبوعياً في موسم النمو، كل أسبوعين شتاءً",
+            "amount": "اسقِ بعمق ودع التربة تجف جزئياً. التين يتحمل الجفاف لكنه يثمر أفضل مع ري منتظم.",
+            "tip": "عند نضج الثمار، قلّل الري قليلاً لتصبح الثمار أحلى."
+          },
+          "light": {
+            "title": "الضوء",
+            "type": "شمس كاملة",
+            "hours_per_day": "8 ساعات أو أكثر",
+            "tip": "يتحمل ظلاً جزئياً مع تقليل الإنتاج."
+          },
+          "soil": {
+            "title": "التربة",
+            "type": "جيدة التصريف، يتحمل أنواعاً متعددة",
+            "tip": "يتحمل التربة الكلسية والرملية — مناسب جداً لمناخ الطائف."
+          },
+          "planting_season": {
+            "title": "موسم الزراعة",
+            "season": "الشتاء والربيع",
+            "tip": "ازرع في نهاية الشتاء وهو في طور السكون."
+          },
+          "temperature": {
+            "title": "درجة الحرارة",
+            "range": "يتحمل من -15 درجة حتى 40 درجة",
+            "tip": "شجرة قوية جداً تتحمل الصقيع المعتدل والحرارة الشديدة."
+          },
+          "quick_steps": [
+            "استخدم عقلة (قلم خشبي) من شجرة موجودة — أسهل وأسرع.",
+            "احفر حفرة 50×50 سم.",
+            "لا تحتاج تربة غنية — تنمو في تربة عادية.",
+            "اسقِ بانتظام أول موسم.",
+            "قلّم في الشتاء لتحفيز نمو أفرع جديدة.",
+            "تبدأ الإثمار بعد سنتين إلى أربع."
+          ],
+          "common_problems": [
+            { "symptom": "تساقط الثمار الصغيرة", "cause": "إجهاد مائي أو حرارة مرتفعة", "solution": "اسقِ بعمق وضع طبقة تغطية (مالش) حول الجذور" },
+            { "symptom": "الثمار لا تنضج", "cause": "نقص ضوء أو برودة", "solution": "انقل للمكان الأشمس وتأكد من دفء الطقس" }
+          ]
+        },
+        "en": {
+          "watering": {
+            "title": "Watering",
+            "frequency": "Once a week during growing season, every 2 weeks in winter",
+            "amount": "Water deeply and let soil partially dry. Tolerates drought but fruits better with regular watering.",
+            "tip": "Slightly reduce watering when fruits are ripening to make them sweeter."
+          },
+          "light": {
+            "title": "Light",
+            "type": "Full Sun",
+            "hours_per_day": "8+ hours",
+            "tip": "Tolerates partial shade with reduced production."
+          },
+          "soil": {
+            "title": "Soil",
+            "type": "Well-drained, tolerates various types",
+            "tip": "Tolerates calcareous and sandy soils — very suitable for Taif climate."
+          },
+          "planting_season": {
+            "title": "Planting Season",
+            "season": "Winter and Spring",
+            "tip": "Plant at end of winter while dormant."
+          },
+          "temperature": {
+            "title": "Temperature",
+            "range": "Tolerates -15°C to 40°C",
+            "tip": "Very hardy, tolerates moderate frost and intense heat."
+          },
+          "quick_steps": [
+            "Use a hardwood cutting from an existing tree — easiest and fastest.",
+            "Dig a 50×50 cm hole.",
+            "No rich soil needed — grows in ordinary soil.",
+            "Water regularly for the first season.",
+            "Prune in winter to stimulate new branches.",
+            "Fruiting begins after 2-4 years."
+          ],
+          "common_problems": [
+            { "symptom": "Small fruit drop", "cause": "Water stress or high heat", "solution": "Water deeply and add mulch around roots" },
+            { "symptom": "Fruits not ripening", "cause": "Insufficient light or cold", "solution": "Move to sunnier spot and ensure warm enough weather" }
+          ]
+        }
+      }
+    }
+
+  ]
+}
